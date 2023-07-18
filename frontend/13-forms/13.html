@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form class="w-50 mx-auto mt-5 mb-5 bg-light shadow p-3">
+            <div class="mb-3 form-floating">
+                <input type="text" name="username" id="un" class="form-control" autocomplete="off" placeholder="sss">
+                <label for="un" class="form-label">Username</label>
+                
+            </div>
+            <div class="mb-3">
+                <label for="pw" class="form-label">Password</label>
+                <input type="password" name="password" id="pw" class="form-control">
+                <p class="form-text">password is case sensetive</p>
+            </div>
+
+            <div class="mb-3">
+                <label for="b">select branch</label>
+                <select name="branch" id="b" class="form-select">
+                    <option disabled selected value="">select--one---item</option>
+                    <option value="cse">CSE</option>
+                    <option value="iT">IT</option>
+                    <option value="Mechanical">ME</option></select>
+            </div>
+
+            <div>
+                <label for="">Choose your skills</label>
+                <div class="form-check">
+                    <input type="checkbox" name="dance" id="d" class="form-check-input">
+                    <label for="d" class="form-check-label">Dance</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" name="sleep" id="s" class="form-check-input">
+                    <label for="s" class="form-check-label">Sleep</label>
+                </div>
+            </div>
+            <div class="form-radio">
+                <input type="radio" name="xyz" id="?" class="form-radio-input">
+                <label for="?" class="form-radio-label">Radio</label>
+    
+    
+            </div>
+            <div class="form-radio">
+                <input type="radio" name="xyz" id="?" class="form-radio-input">
+                <label for="?" class="form-radio-label">Radio</label>
+                
+    
+            </div>
+
+            <div>
+                <label for="">alarm</label>
+                <div class="form-switch">
+                    <input type="checkbox" name="alarm" id="a" class="form-check-input">
+                    <label for="a" class="form-check-label">alarm</label>
+                </div>
+            </div>
+            <div>
+                <label for="ab" class="form-label">write about your self</label>
+                <textarea name="about" id="ab" cols="30" rows="10" class="form-control"></textarea>
+
+                <button class="btn btn-info mt-3 ">Submit</button>
+            </div>
+        </form>
+        
+        <form action="" style="width:40rem" class="mx-auto mt-5 bg-light p-5 shadow"></form>
+        
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

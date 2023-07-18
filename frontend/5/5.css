@@ -1,0 +1,58 @@
+.yo{
+    color: cadetblue;
+    text-align: center;
+}
+
+.hi{
+    text-align: center;
+    border-radius: 10%;
+    border-color: black;
+    border-width: 3px;
+    padding: 2%;
+    margin: auto;
+    display: block;
+    border-style:dashed;
+}
+
+a{
+    text-decoration: none;
+    color: maroon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+a.active{
+    background-color: yellow;
+}
+
+a:focus{
+    color:red;
+}
+
+table{
+    border: 2px;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    
+    background-color: burlywood;
+}
+
+table,th,tr,td{
+    border:2px solid black ;
+    border-collapse: collapse;
+}
+
+
+
+

@@ -1,0 +1,118 @@
+ReactJS -- JS library
+Advantages of Reactjs -- Performance
+Single page application 
+
+
+client                
+        initial request---->
+        <---------------Html
+        AJAX--------------->
+        <---------------JSON
+                             server
+
+
+
+Architecture of React App:
+    -Component Based react App
+
+Creating react application:
+    to crate new react application:
+    command:    npx create-react-app app-name    
+
+    Module ---- create-react-app
+    nmp -- to install node js modules
+    npx -- used to execute without install the modules
+
+    syntax:
+        npm install module-name
+        npx install module-name
+
+Understanding folder structure:
+    node_modules folder -- the node modules to work with react app development --198MB.
+    public folder -- the content that can be used by all components
+    src -- Source code
+    Package.json -- details of modules used in the app
+
+Run React Application:
+    command:
+        npm start
+            --compile the app   JSX ---> JS  (babel)
+            --create bundles of app (webpack)
+            --It posts the app into web server(live server)
+            --open the browser
+            --make req to app
+                http://localhost:3000
+
+
+What is a Component:
+    --Reusable piece of UI element.
+Types of Components:
+    Class components
+    Function components
+
+Syntax of a function component:
+------------------------------------
+function NameOdComponent(){
+
+    state of Component
+    function to run bussiness logic
+
+    //create and return the react element
+    return(
+        create a react element(JSX)
+    )
+
+}
+
+// it should return only one element
+
+
+JSX
+---------------
+Syntax extension for JavaScript
+
+
+render array by JSX
+----------------------
+arr.map ((element)=><p>{element}<p/>)
+
+
+
+CSS in react
+--------------
+index.CSS -- global CSS
+app.CSS (App.js) -- Execlusive for a component (should be imported)
+                        import 'path of css file'
+
+Inline CSS -- style attribute
+
+except in index.css if we want to use any css file it should imported into the component. 
+
+
+Images in react:
+
+
+Bootstrap in react:
+--------------------------
+Adding CDN link X
+
+install Bootstrap
+    npm install Bootstrap
+import into index.js file
+    import 'bootstrap/dist/css/bootstrap.css';
+
+
+install react developer tools
+------------------------------
+
+
+Handling events in react
+-------------------------
+JS:
+    <element onclick="function()">...</element>
+    element.addEventListener('click',()=>{})
+React:
+    calling non-param fun:
+        <element onClick={name-of-function}>...</element>
+    calling param-function:
+        <element onClick={()=>name-of-function(args)}>...</element>

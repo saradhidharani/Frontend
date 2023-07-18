@@ -1,0 +1,26 @@
+comments in html and css
+
+html <!--comments-->
+css  /*comment*/
+
+div & span elements
+---------------------
+div --- to group elements(block level)
+span --- (inline level)
+
+hyperlinks
+text and image
+<a href="path of the target resource"  target="_self/_blank">content</a>
+
+styling hyperlinks:
+-------------------------------------------
+pseudo classes
+a{}             (Normal link)
+a:link{}        (Unvisited link)
+a:visited{}     (Visited link)
+a:hover{}       (when mouse moved over it)
+a:active{}      (when being clicked)
+a:focus{}       (after selection)
+
+
+<!--target ="_blank" is usedto open hyperlinks in new tab -->

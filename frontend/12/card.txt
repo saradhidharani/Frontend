@@ -1,0 +1,33 @@
+bootstrap cards
+there are 2 types of cards :
+    vertical cards-content alligned vertically
+    horizontal cards-content alligned horizontally
+
+card
+    card-header
+    card-body
+    card-footer
+
+
+        card-title
+        card-text
+        card-link
+        card-image-overlay----text on top of the image
+
+card layouts;
+    card-group
+    grid of cards
+
+to let the image inside card occupy 100%of the space put the image on top of the card-body or body of the card.
+
+
+card group:
+takes all cards and put them to gether adjacebt to each other without any spaces.
+card-1
+card-2
+
+grid of cards:
+shows grid of cards and arrange them according to the width.
+
+row-cols-sm-*
+col-sm/md/lg....-*

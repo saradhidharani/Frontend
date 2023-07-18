@@ -1,0 +1,47 @@
+CSS Units
+-------------
+Absolute Units
+    cm
+    mm
+    in
+    px
+    pt
+    pc
+Relative Units
+    em (equal to font-size of parent element)
+    rem (equal to font size of root element)
+    vw (1% of view port width)
+    vh (1% of view port height)
+    % (relative to parent element)
+
+
+
+Sizing properties
+---------------------
+width
+height
+
+min-width
+min-height
+
+max-width
+max-height
+
+
+
+Using google fonts & fontawesome icons
+---------------------------------------------
+
+
+
+styles for child elements
+-----------------------------------
+Child combinator:
+    selector1>selector2{
+        style properties
+    }
+
+Descendant combinator:
+    selector1 selector2{
+        style properties
+    }

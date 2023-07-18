@@ -1,0 +1,34 @@
+Bootstrap-forms:
+form-label
+form-control
+    from-control-sm
+    from-control-lg
+from-text
+
+floating labels:
+------------------------
+form-floating
+
+
+for checkbox &radio
+--------------------------
+form-checkbox (div)
+        form-switch
+        form-check-inline
+form-check-input(input)
+form-check-label(label)
+
+
+
+for select element:
+--------------------------
+form-select     
+        form-select-sm
+        form-select-lg
+form-text
+
+collapse
+-----------
+data-bs-toggle
+data-bs-target
+collapse

@@ -1,0 +1,12 @@
+element level and chamging level property:
+block level-entire row is occupied
+inline level-only required space is occupied
+
+heading -block level
+para  -block level 
+list  -block level
+img  -inline level
+
+display property 
+                -block
+                -inline

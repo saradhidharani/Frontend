@@ -1,0 +1,17 @@
+.px{
+    font-size: 30px;
+    border:3px solid black;
+    padding :3px;
+}
+
+.em{
+    font-size: 3em;
+    border: 1em solid black;
+    padding:1.5 em;
+}
+
+.vm{
+    font-size: 5vm;
+}
+
+

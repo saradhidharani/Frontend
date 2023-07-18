@@ -1,0 +1,49 @@
+video,audio & iframe elements:
+-------------------------------------
+<video src="link of video"  controls  poster="link of thumbnail or image"></video>
+<audio src="image link" controls></audio>
+
+
+iframe-inline frame;
+embed content to the page
+to nest someother content in the page
+to add outside audio or video to the webpage without downloading the content 
+steps:
+copy embed code of that content
+past the embed code inside iframe src
+
+
+CSS flexbox layout:
+--------------------------
+    create flex container
+        display:flex
+    change flex direction
+        flex-direction:row/row-reverse/col/col-reverse
+    Apply wrap
+        flax-wrap:wrap/nowrap/wrap-reverse
+    change ability of flex item to grow
+        flex-grow:number
+    Adjust gap
+        gap:value
+    Horizontal alignment
+        justify-content
+            flex-start
+            flex-end
+            center
+            space-between
+            space-around
+            space-evenly
+    vertical alignment
+        allign-items
+            flex-start
+            flex-end
+            center
+            stretch
+            baseline
+    Align individual item
+        align-self
+    Align-items vs align-content
+        rule====>No wrap,No align-content
+        
+
+

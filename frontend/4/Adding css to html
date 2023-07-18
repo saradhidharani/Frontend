@@ -1,0 +1,80 @@
+Adding css to html
+    -internal css 
+        cons-length of the document increaes
+    -external css
+        seperate css file containing css code
+    -Inline css
+        cons-loss of readability
+            -not possible to reuse the code
+
+selector as id,class,.......
+
+selector{
+    property:value;
+    ...........
+}
+
+different style for name of the element:
+id-  #id_name -unique and not used formultiple elements
+class- .class_name  -reusable
+
+box model
+-----------------------------
+|        margin             |
+|   ----------------------  |
+|   |   border           |  |
+|   |   ---------------  |  |
+|   |   |   padding   |  |  |
+|   |   | ----------- |  |  |
+|   |   | | content | |  |  |
+|   |   | ----------- |  |  |
+|   |   ---------------  |  |
+|   ----------------------  |
+-----------------------------
+
+margin:auto
+margin
+    one value(all sides)
+    two values(top&bottom left&right)
+    three values(top left&right bottom)
+    four values(top right bottom left)
+    auto(horizontally center)
+
+margin-top
+margin-bottom
+margin-left
+margin-right
+
+padding 
+padding-top
+padding-bottom
+padding-left
+padding-right
+
+CSS backgrounds:
+---------------------
+background-colour
+background-image
+background-repeat
+        repeat-x
+        repeat-y
+        no-repeat
+background-size
+    -auto (to calculate thesize automatically)
+    -cover (covers entire container)
+    -contain (shows whole image)
+    -one-value (width)
+    -two-values(width & height)
+background-position
+        top
+        bottom
+        center
+        left
+        right
+background-attachment
+        scroll
+        fixed
+linear-gradient(to left,colour,...........)
+linear-gradient(to right/top/bottom,colour,.........)
+
+

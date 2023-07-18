@@ -1,0 +1,12 @@
+css positions
+---------------------
+    top bottom left right 
+
+static-default position
+relative-relative to its natural or original position.
+Absolute-relative to its positioned ancestor(parent)/body(removed from doc flow)
+fixed-
+sticky
+z-index
+
+

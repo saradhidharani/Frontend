@@ -1,0 +1,84 @@
+CSS-Cascading style sheet language
+
+rule:
+
+selector{
+    property:valur;
+    property:value;
+}
+
+we can used 3 types of colours in css
+RGB are primary colours
+
+1)named colours
+2)rgb colours
+    rgb(RED GREEN BLUE[/alpha])
+    each colour is numbered from 0-255 (or) percentage 0-100%
+    alpha is numbered as 0-1 (or) in terms of percentage 0-100%
+3)hexadecimal colours
+    #RRGGBB[AA]
+    alpha value is for intensity of the colour
+
+
+TEXT STYLES:
+colour
+font-family
+font-size
+font-weight
+text-transform
+text-decoration
+text-shadow
+    x-axis y-axis blur color
+text-align
+    left
+    right
+    center
+line-height
+letter-spacing
+word-spacing
+text-indent
+
+BORDER STYLES:
+border 
+    width type color
+border-top
+border-left
+border-right
+border-bottom
+
+border-radius
+border-top-right-radius
+border-top-left-radius
+border-bottom-left-radius
+border-bottom-right-radius
+
+
+
+LIST STYLING:
+list-style-type
+        disc
+        circle
+        decimal
+        square
+        upper-roman
+
+list-style-image:url("")
+list-style-position
+     
+https://interactive-examples.mdn.mozilla.net/media/examples/rocket.svg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif
+
+
+iMAGE STYLE:
+
+image allignment
+    float
+        left
+        right
+    display:block
+    margin:auto
+box-shadow  
+    x-axis y-axis blur color
+box-shadow can be used to all elements except text.
+
+        

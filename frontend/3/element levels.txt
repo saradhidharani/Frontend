@@ -1,0 +1,11 @@
+element levels:
+    1)block level elements:(entire row)
+    2)inline elements:(required space)
+to check whether an element is block level or inline go to developer tools in the webpage.
+press f12 or select inspect after right click then go to elements and by putting cursor we can easiy classify an element as block level or inline.
+Block level:
+    heading,para,lists
+Inline:
+    image
+
+

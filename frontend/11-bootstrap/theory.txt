@@ -1,0 +1,119 @@
+html-web page
+css-styles and layouts
+bootstrap-contains predefined styled
+
+
+what is bootstrap and what it contains?
+most of them contain predefined styles.
+it is a css framework.It contain css library.
+
+<element class="class-1 class-2 class-3 ......"> content </element>
+
+these classesare predefined.
+
+
+containers
+-------------
+Bootstrap fixed layout:
+    container
+Bootstrap fluid layout:
+    container-fluid
+
+
+Bootstrap typography:
+-----------------------------
+Display headings:
+        display-1 to display-6
+
+Make para standout:
+        lead
+
+
+Text alignments:
+        text-start
+        text-center
+        text-end
+
+text colours:
+        text-primary
+        text-secondary
+        text-success
+        text-danger
+        text-warning
+        text-info
+        text-light
+        text-dark
+        text-body
+        text-muted
+        text-white
+        text-black-50
+
+Lists:
+        list-unstyled
+        list-inline(ul)
+                list-inline-item(li)
+
+Background gradients:
+        bg-gradient(add this class after background colour class)
+
+
+Image Classes:
+        img-fluid
+        img-thumbnail
+        rounded
+        float-start
+        float-end
+        d-block mx-auto
+
+
+Border classes:
+        Addictive classes:
+                Border
+                Border-top
+                Border-end
+                Border-bottom
+                Border-start
+        Subtractive classes:
+                border-0
+                border-top-0
+                border-end-0
+                border-bottom-0
+                border-start-0
+        border width:
+                border-1
+                border-2
+                border-3
+                border-4
+                border-5
+        border radius:
+                rounded
+                rounded-top
+                rounded-end
+                rounded-bottom
+                rounded-start
+                rounded-circle
+                rounded-pill
+
+Shadoe classes:
+        shadow-sm
+        shadow
+        shadow-lg
+
+Spacing classes:
+m mt mb ms me mx
+p pt pb ps pe
+
+display property classes:
+        d-inline
+        d-block
+        d-flex
+
+bootstrap tables:
+table
+table-striped
+table-dark
+table-hover
+table-bordered
+table-borderless
+table-sm
+
